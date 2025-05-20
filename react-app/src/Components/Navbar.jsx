@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav className="flex justify-between w-screen h-20 text-center">
         <div className="ml-30 flex items-center">
-          <img src="BgMarathon.png" alt="" className="h-23 w-23" />
+          <img src="BgMarathon.png" alt="" className="h-20 w-20" />
           <h1 className="font-bold text-2xl">BgMarathon</h1>
         </div>
         <div
