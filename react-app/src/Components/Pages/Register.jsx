@@ -13,7 +13,7 @@ function Register() {
   };
 
   return (
-    <div className="relative bg-[url('./Register.png')] bg-cover bg-center w-screen min-h-[calc(100vh-80px)] flex items-center justify-center px-4 py-8">
+    <div className="relative bg-[url('/Register.png')] bg-cover bg-center w-screen min-h-[calc(100vh-80px)] flex items-center justify-center px-4 py-8">
       <div className="absolute inset-0 bg-black opacity-40"></div>
       <form className="bg-white/90 backdrop-blur-md rounded-2xl shadow-lg w-full max-w-md p-6 space-y-4">
         <h1 className="text-center text-2xl font-bold">Run with Us!</h1>
