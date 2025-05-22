@@ -23,6 +23,7 @@ L.Icon.Default.mergeOptions({
 function Info() {
   const [searchParams] = useSearchParams();
   const ime = searchParams.get("ime");
+  const broj = Math.floor(100 + Math.random() * 900);
 
   const startPosition = [44.8055, 20.478];
   const finishPosition = [44.81, 20.467];
@@ -36,7 +37,7 @@ function Info() {
         <div className="mb-6">
           <h3 className="text-2xl font-bold mb-2">Your info:</h3>
           <p>
-            <b>Number:</b> random br genersisi
+            <b>Number:</b> {broj}
           </p>
           <p>
             <b>Start of the race:</b> 08:00
