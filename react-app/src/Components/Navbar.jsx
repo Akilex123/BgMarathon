@@ -4,13 +4,11 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="flex justify-between items-center w-full h-20 px-6 md:px-12 text-black shadow-md">
-      {/* Leva strana: Logo i naziv */}
       <div className="flex items-center space-x-4">
-        <img src="BgMarathon.png" alt="Logo" className="h-12 w-12" />
+        <img src="/BgMarathon.png" alt="Logo" className="h-12 w-12" />
         <h1 className="font-bold text-2xl">BgMarathon</h1>
       </div>
 
-      {/* Desna strana: Linkovi */}
       <div className="flex space-x-6">
         <Link
           to="/"
